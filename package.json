@@ -1,0 +1,23 @@
+{
+  "name": "@bilal_amir97/cli_number_guessing",
+  "version": "1.0.0",
+  "description": "This is a CLI based Number Guessing Game",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Bilal",
+  "license": "MIT",
+  "dependencies": {
+    "@bilal_amir97/cli_number_guessing": "^1.0.0",
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
